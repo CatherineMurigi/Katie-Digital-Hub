@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catherine Murigi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e019046ace.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+            <nav class="navbar">
+              <a href="#header"><img src="pic/KDH.jpg" class="logo"></a>
+              <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+              </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              <h1>Elevate your online business <br>with seamless <span>web designs</span> <br>and
+                meticulous <br><span>admin services</span>.</h1>
+                <p>Book a free consultation call with us.</p>
+                <a href="https://calendly.com/katiedigitalhub/30min?month=2024-05" target="_blank"><button class="action">Work With Us</button></a>
+            </div>
+        </div>
+    </div>
+    <!-----------about-------------------->
+    <div id="about">
+      <h1 class="sub-title1">About Us</h1>
+      <p class="sub-text">Katie Digital Hub is a virtual assistant agency dedicated to making business and social media 
+        simple for beauty and wellness brands, empowering them to shine online through administrative 
+        support, end-to-end social media management and stand-out website design that converts. <br><br>We specialise 
+        in elevating your online presence, building amazing websites, and driving meaningful engagement across 
+        a variety of social media platforms. Our services include:<br><br>
+        <strong>Website Design</strong><br>
+        Your website is the heart of your online presence, and we are here to make sure it beats with vitality and elegance. 
+        We are dedicated to creating visually captivating and highly functional websites 
+        that reflect the unique essence of your brand.<br><br>
+        <em>- Custom Designs: Every pixel and detail is thoughtfully crafted to align perfectly with your brand identity.</em><br>
+        <em>- Responsive Layouts: We ensure your website looks spectacular on any device, providing a seamless experience for all users.</em><br>
+        <em>- SEO Optimized: Our designs are not only beautiful but also optimized to rank high on search engines, driving organic traffic to your site.</em><br>
+        <em>- User-Friendly Interfaces: We prioritize intuitive navigation, making it effortless for your visitors to find exactly what they need.</em><br>
+        <strong>Administrative Support</strong><br>
+        Running a business involves countless administrative tasks that can be overwhelming and time-consuming. Let us take 
+        that burden off your shoulders with our comprehensive admin services. We handle everything with precision and 
+        efficiency, so you can focus on what you do best.<br><br>
+        <em>- Data Management: From data entry to complex database management, we ensure your information is organized and accessible.</em><br>
+        <em>- Email Management: Say goodbye to inbox overload. We manage your emails with care, ensuring timely responses and uncluttered communication.</em><br>
+        <em>- Scheduling & Planning: Keep your calendar flawlessly organized. We manage appointments, meetings, and travel plans with impeccable attention to detail.</em><br>
+        <em>- Customer Support: Delight your customers with responsive and friendly service. We handle inquiries and support tickets promptly and professionally.</em></p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="pic/bg1.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Meet our Founder</h1>
+            <p class="subtext1">Hello, I’m Catherine.<br>
+              <br>I am a mother of one amazing girl and I love working with clients to build their brand online. I founded 
+              this agency to help individuals gain work-life balance while providing exceptional customer support to their clients. 
+              We strive to please our clients and their customers.<br> 
+              <br><strong><em>We believe good customer service is KING!</em></strong><br><br>
+              I oversee all projects that come into the agency. So, whether we’re providing your business with general 
+              administrative services or even specialty services such as Squarespace website design or course creation, 
+              we’re always thinking about customer’s experience! <br></p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Social Media Management</span><br>Social media scheduling & management.</li>
+                  <li><span>Web Development</span><br>Designing & Developing Websites</li>
+                  <li><span>Content Creation</span><br>Creating social media content and blog post</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2024 - Current</span><br>Web Designer, freelance</li>
+                  <li><span>2022 - 2023</span><br>Executive Assistant at Upwork</li>
+                  <li><span>2017 - 2022</span><br>Business Consultant at TechnoServe</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2023</span><br>Web Design and Development Self-Taught</li>
+                  <li><span>2022</span><br>Financial Modeling & Valuation Analysis, CFA</li>
+                  <li><span>2022</span><br>Virtual Assistant, ALX</li>
+                </ul>
+               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------services--------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web <br>Design</h2>
+            <p>Designing seamless websites.</p>
+            <a href="pic/Web.pdf" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-hashtag"></i>
+            <h2>Social Media Services</h2>
+            <p>Social Media Management & Scheduling.</p>
+            <a href="pic/Social.pdf" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-user-tie"></i>
+            <h2>Administrative Services</h2>
+            <p>Offering administrative support.</p>
+            <a href="pic/Admin.pdf" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------portfolio-------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="pic/work-1.jpg">
+            <div class="layer">
+              <h3>Website Design</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pic/work-2.jpg">
+            <div class="layer">
+              <h3>Socia Media Management</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pic/work-3.jpg">
+            <div class="layer">
+              <h3>Virtual Assistance</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="pic/KDH-Portfolio.pdf" target="_blank" class="btn">See more</a>
+      </div>
+    </div>
+    <!-----------------contact-------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title2">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>catherinemurigi11@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+254725946681</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61556133012049" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/katiedigitalhub/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/KatieMurigi" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://www.linkedin.com/in/catherine-murigi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="pic/KDH-Portfolio.pdf" download target="_blank" class="btn btn2">Download Portfolio</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2024 By Katie Digital Hub</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right ="0"
+      }
+      function closemenu(){
+        sidemenu.style.right ="-200px"
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycby4bPW9T2TGVTeqFz72SV6hNOA09eHCAa-FuUXIusTTp-xlvl21VKMwTmmeWsrDxoWo9Q/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
